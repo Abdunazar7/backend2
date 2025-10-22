@@ -11,7 +11,7 @@ async function bootstrap() {
         urls: [
           "amqps://qgqgkacu:g6YBcofwzk096-x8MqFqzo7Ti_uqcxRa@cow.rmq2.cloudamqp.com/qgqgkacu",
         ],
-        queue: "product_queue",
+        queue: "book_queue",
         queueOptions: {
           durable: false,
         },
